@@ -675,5 +675,6 @@ body {
     font-family: DM Sans;
     text-align: center;
     margin-left: 300px;
+    position: absolute;
   }
 }
