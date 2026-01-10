@@ -440,6 +440,7 @@ body {
   border: none;
   background: linear-gradient(to right, #ffffff0d, #0000000f);
   color: white;
+  padding-left: 10px;
 }
 
 .footer {
@@ -598,22 +599,74 @@ body {
     margin-bottom: 40px;
   }
 
-  .extra__img--images{
+  .extra__img--images {
     width: 300px;
   }
 
-  .team__card--title{
+  .team__card--title {
     display: flex;
     flex-shrink: 1;
   }
 
-  .subscribe{
+  .subscribe {
     width: 100vw;
   }
 
-  .subscribe__input{
+  .subscribe__input {
     width: 70vw;
     padding-left: 10px;
   }
+}
 
+@media (max-width: 720px) {
+  .header__title--text {
+    display: none;
+  }
+
+  .navbar__logo {
+    margin-right: 350px;
+  }
+
+  .service__title--subtitle {
+    font-size: 16px;
+    font-family: DM Sans;
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .header__immage--img {
+    margin-bottom: 125px;
+  }
+
+  .service__cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+  }
+
+  .subscribe {
+    width: 80vw;
+    height: 40vh;
+  }
+
+  .subscribe__input {
+    width: 70vw;
+    padding-left: 40px;
+  }
+
+  .team__card {
+    background: linear-gradient(#0000000d, #0000000f);
+    width: 270px;
+    height: 266px;
+    border-radius: 50px;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.8s ease;
+  }
 }
